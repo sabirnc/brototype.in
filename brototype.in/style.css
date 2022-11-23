@@ -1,0 +1,450 @@
+body {
+margin: 0;
+font-family: "Montserrat", sans-serif-apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 1rem;
+background-color:#fff;
+}
+h1,
+h2,
+h3,
+h5 {
+margin: 0;
+}
+header{
+padding: 1.5em 0;
+}
+.container{
+max-width: 1140px;
+margin: 0 auto;
+}
+.title{
+text-align: center;
+font-size: 2.25rem;
+font-weight: 700;
+}
+.title-link{
+font-size: 1rem;
+color: black;
+text-decoration: none;
+font-weight: 600;
+}
+.bro{
+border: 1px solid;
+padding: .5em;
+background-color: black;
+color: #fff;
+font-weight:700;
+}
+.to-top{
+height: 60px;
+border: 1px solid;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+right: 5%;
+bottom: 20%;
+background-color: #00D2B5;
+color: white;
+border-radius: 5px;
+}
+.intro{
+display: flex;
+margin-bottom: 1.5em;
+}
+.intro-secondary{
+margin-top:3em;
+margin-left: 2.5em;
+}
+.intro-secondary > h2{
+font-size: 2.25rem;
+}
+.intro-text{
+color: #808080;
+}
+.apply-btn{
+margin-bottom: 1em;
+padding: 1em 2em;
+border-radius: 40px;
+background-color: #00D2B5;
+border: 1px solid #00D2B5;
+font-family:"Montserrat";
+font-size: 1rem;
+}
+.apply-btn:hover,
+.apply-btn:focus{
+background-color: #fff;
+transition: all 1s ease;
+}
+.full{
+background-color: #f6f6f6;
+}
+.feature-head{
+padding: 0.3em;
+font-size: 2.5rem;  
+text-transform: capitalize;
+}
+.feature-card-container{
+display: flex;
+justify-content: center;
+gap:2em;
+}
+.feature{
+max-width: 300px;
+padding: 1em;
+line-height: 2;
+margin-bottom: 2em;
+background-color: #fff;
+color: #808080;
+border-radius:5px;
+padding-top:1.5em;
+}
+.feature-heads{
+color:#222;
+font-weight: 300;
+}
+.icon-wrap{
+border-radius:50%;
+width: 30px;
+padding: .5em;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #00D2B5;
+color: #fff;
+font-weight: 200;
+}
+.feature:hover,
+.feature:focus{
+background-color: #00D2B5;
+color: rgba(0,0,0,0.2);
+transition: all 1s ease-in;
+
+}
+.feature:hover .icon-wrap{
+background-color: #fff;
+color: #00D2B5;
+}
+.feature:hover .feature-heads{
+color: #fff;
+}
+.about-brocamp{  
+display: flex;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+margin-bottom: 2em;
+}
+.about-brocamp > div{
+margin: 1em;
+}
+.about-head{
+font-size: 2.25rem;
+font-weight: 900;
+margin-left: 2em;
+}
+.about-text{
+max-width: 350px;
+margin-left:4.5em;
+line-height:1.6;
+font-size: .1.2rem;
+color: #808080;
+}
+.life-at-brocamp{
+padding: 1em;
+}
+.life{
+font-size: 2.25rem;
+font-weight: 700;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+padding-bottom: .5em;
+margin-bottom: 2em;
+}
+.life-text{
+color: #808080;
+}
+.dummy{
+display: flex;
+}
+.dummys{
+height: 50px;
+display: flex;
+}
+.dummy-col{
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.dummy-col-2{
+width: 60%;
+}
+.dummy-col-3{
+width:80%;
+}
+.circle-wrap{
+text-align: center;
+}
+
+.circle{
+padding: 1em 1.3em;
+border-radius: 50%;
+color: #fff;
+background-color: #00D2B5;
+font-weight:600;
+display: flex;
+}
+.circle-wrap::after{
+content: "";
+border: 1px solid #00D2B5;
+
+}
+.cir::before{
+content: "";
+border: 1px solid #00D2B5;
+}
+hr{
+position: relative;
+top: 40%;
+bottom: 45%;
+color: #00D2B5;
+border: 1px solid #00D2B5;
+}
+.curves{
+display:flex;
+justify-content: flex-end;
+align-items: flex-start;
+}
+.curve{
+height:55%;
+width: 50%;
+border: none;
+border-left: 2px solid #00D2B5 ;
+border-bottom:2px solid #00D2B5 ;
+border-bottom-left-radius: 10px;
+}
+.col-text{
+text-align: end;
+}
+.frame-wrap{
+margin: 0 auto;
+margin-top: 2em;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.frame-wrap > iframe{
+width:80%;
+height: 500px;
+}
+h5{
+font-weight: 400;
+
+}
+.sub-container{
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+grid-template-rows: repeat(4,2fr);
+gap:20px;
+padding-bottom: 2em;
+}
+.domain{
+display: flex;
+flex-direction: column;
+padding: 1em;
+border-radius: 6px;
+background-color: #fff;
+transition: all 1s ease;
+}
+.domain:hover{
+background-color: #00D2B5;
+color: #fff;
+}
+.domain > h3{
+font-weight: 300;
+}
+.domain > p{
+color:#808080;
+}
+.domain-head{
+font-size: 2.5rem;
+line-height: 2;
+font-weight: 900;
+}
+.join-sec{
+padding-top: 2em;
+padding-bottom: 2em;
+}
+.join-head{
+font-size: 2.5rem;
+margin-bottom: 2em;
+padding-bottom: 1em;
+border-bottom: 1px solid #808080;
+}
+.join-frame{
+width: 100%;
+height: 60vh;
+}
+.side-container{
+width: 20%;
+display: flex;
+justify-content: center;
+}
+.sub{
+width: 80%;
+text-align: end;
+}
+.con-head{
+font-size: 2.5rem;
+border-bottom: 1px solid #808080;
+margin-bottom:1em ;
+padding-bottom: .5em;
+width: fit-content;
+}
+.detail-sec > div{
+border: 1px solid;
+}
+.information{
+display: flex;
+}
+.information > div{
+width:50%;
+}
+.detail-container{
+margin-left: 4em;
+margin-top: 3em;
+line-height: 1;
+color: #00D2B5;
+}
+.detail-container > h3{
+color: black;
+font-weight:600;
+}
+.chat-1{
+border:1px solid ;
+margin-left: auto;
+padding: .5em 2em;
+width: 60%;
+margin-bottom: 1em;
+border-radius: 40px;
+border-bottom-right-radius: 1px ;
+background-color: #00D2B5;
+color: #fff;
+line-height: 1.5em;
+
+}
+.chat-2{
+width: 60%;
+margin-bottom: 1.5em;
+padding: .5em 2em;
+background-color: #00D2B5;
+border-radius: 40px;
+color: #fff;
+border-bottom-left-radius: 1px;
+}
+.chat{
+padding: 1em;  
+overflow-y:scroll;
+height: 30vh;
+}
+.chat::-webkit-scrollbar{
+  width: 1px solid;
+  background-color:lightgray;
+  border-radius: 5px;
+}
+.faq-head{
+font-size: 2rem;
+font-weight: 600;
+margin-bottom: 2em;
+}
+.foot{
+  text-align: center;
+  padding: 2em;
+}
+.bod{
+border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+@media (max-width:1000px){
+.intro{
+  flex-direction: column;
+  width: 90%;
+}
+.intro-secondary{
+  margin: 0;
+}
+.feature-card-container{
+ flex-direction: column;
+ align-items: center;
+
+}
+.feature{
+  max-width: 80%;
+}
+.about-brocamp{
+  flex-direction: column;
+  align-items: center;
+}
+.about-text{
+  margin: 0;
+}
+iframe{
+ max-width: 100%;
+ max-height: 300px;
+}
+.frame-wrap{
+  margin-top: 2em ;
+  max-width: 100%;
+}
+.domain-head{
+  font-size: 2rem;
+}
+.sub-container{
+  grid-template-rows: repeat(3, 4fr);
+  grid-template-columns: repeat(1,90%);
+  margin-inline-start: 3em;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.information >  div{
+  width: 90%;
+}
+.about-head{
+  margin-left: 0;
+}
+.domain-head{
+  text-align: center;
+}
+.life{
+  text-align: center;
+}
+.join-head{
+  text-align: center;
+  font-size: 2rem;
+}
+.con-head{
+  width: auto;
+  text-align: center;
+}
+.faq-head{
+  text-align: center;
+}
+.join-frame{
+  max-width: 90%;
+  margin: 0 1.5em;
+}
+.detail-container{
+  margin-left: 0;
+}
+}
+
+
+
+
+
+
+
